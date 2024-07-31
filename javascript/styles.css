@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button {
+    display: inline-block;
+    background-color: #00C978;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.custom-button:hover {
+    background-color: #00B367;
+}
+
+#messageContainer {
+    margin-top: 20px;
+}
+
+.success-message {
+    background-color: #DFF2BF;
+    color: #4F8A10;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.success-message.remove-message {
+    opacity: 0;
+}
